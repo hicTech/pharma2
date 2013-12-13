@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>pharma</title>
+
+    <link href="css/general/general.css" rel="stylesheet">
+    <link href="css/layout/flex_layout.css" rel="stylesheet">
+    <link href="css/fontIcons/icons/fontIcon.css" rel="stylesheet">
+    <link href="css/fontIcons/tools/css/tool.css" rel="stylesheet">
+    <link href="css/app/app.css" rel="stylesheet">
+    <link href="css/mainarea/mainarea.css" rel="stylesheet">
+    <link href="css/mainAreaHeader/mainAreaHeader.css" rel="stylesheet">
+    <link href="css/body/body.css" rel="stylesheet">
+    <link href="css/sidebar/sidebar.css" rel="stylesheet">
+    <link href="css/table/table.css" rel="stylesheet">
+    <link href="css/form/form_structure.css" rel="stylesheet">
+    <link href="css/form/form_elements.css" rel="stylesheet">
+    <link href="css/buttons/button.css" rel="stylesheet">
+    <link href="css/loading/loading.css" rel="stylesheet">
+    <link href="css/overlay/overlay.css" rel="stylesheet">
+    <link href="css/item/item.css" rel="stylesheet">
+    <link href="css/multiple/multiple.css" rel="stylesheet">
+    <link href="css/effects/effects.css" rel="stylesheet">
+    <link href="css/dialog/dialog.css" rel="stylesheet">
+
+
+
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+</head>
+
+
+
+
+
+
+<body style="overflow:hidden">
+
+    <!--
+    <div class="OVERLAY">
+        <div class="EXTENDER">
+            <div class="PADDER-CENTER">
+
+                <!--
+                <div class="LOADING">
+                    <div class="LOADING-text">loading...</div>
+                    <div class="LOADING-container" style="top:52%">
+                        <div class="track"></div>
+                        <div class="spinner">
+                            <div class="loadingMask">
+                                <div class="maskedCircle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+    <!--
+                <div class="DIALOG ALERT">
+                    <div class="EXTENDER">
+                        <div class="ROWS">
+                            <div class="ROW-FLEX">
+                                <div class="EXTENDER">
+                                    <div class="PADDER-CENTER ALERT-text-container">
+                                        <div class="ALERT-text">Testo dell'alert </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ROW COLS CENTER" style="height:40px">
+                                <div class="COL">
+                                    <button class="BUTTON blue medium rounded">&nbsp;&nbsp;ok&nbsp;&nbsp;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+-->
+
+
+
+    <div class="OVERLAY">
+        <div class="EXTENDER" style="overflow-y:hidden">
+
+            <div class="DIALOG big FORM">
+                <div class="EXTENDER">
+                    <div class="ROWS">
+                        <div class="ROW COLS FORM-header">
+                            <div class="COL-FLEX">
+                                <div class="EXTENDER">
+                                    <div class="PADDER-CENTER ROWS">
+                                        <div class="FORM-title">Nuovo Utente</div>
+                                        <div class="FORM-subtitle">Nuovo Utente</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ROW-FLEX FORM-bg">
+
+                            <div class="EXTENDER">
+                                <div class="PADDER0">
+                                    <div class="FORM">
+                                        <div class="FORM FORM-rows">
+
+
+
+
+
+                                            <div class=" COLS CENTER FORM-row">
+                                                <div class="COL FORM-row-col INPUT">
+                                                    <div class="INPUT-label">Nome:</div>
+                                                    <div>
+                                                        <input>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class=" COLS CENTER FORM-row">
+                                                <div class="COL FORM-row-col SELECT">
+                                                    <div class="SELECT-label">Sesso:</div>
+                                                    <div>
+                                                        <select>
+                                                            <option>Maschio</option>
+                                                            <option>Femmina</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="COL FORM-row-col SELECT">
+                                                    <div class="SELECT-label">Sesso:</div>
+                                                    <div>
+                                                        <select>
+                                                            <option>Maschio</option>
+                                                            <option>Femmina</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class=" COLS CENTER FORM-row">
+                                                <div class="COL FORM-row-col INPUT">
+                                                    <div class="INPUT-label">Nome:</div>
+                                                    <div>
+                                                        <input>
+                                                    </div>
+                                                </div>
+                                                <div class="COL FORM-row-col RADIO">
+
+                                                    <input id="r-1" type="radio" value="a" name="radio-group" checked>
+                                                    <label for="r-1" class="RADIO-label">a</label>
+
+                                                    <input id="r-2" type="radio" value="b" name="radio-group">
+                                                    <label for="r-2" class="RADIO-label">b</label>
+
+                                                    <input id="r-3" type="radio" value="c" name="radio-group">
+                                                    <label for="r-3" class="RADIO-label">c</label>
+
+                                                </div>
+                                            </div>
+
+                                            <div class=" COLS CENTER FORM-row">
+                                                <div class="COL FORM-row-col SELECT">
+                                                    <div class="SELECT-label">Sesso:</div>
+                                                    <div>
+                                                        <select>
+                                                            <option>Maschio</option>
+                                                            <option>Femmina</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="COL FORM-row-col RADIO">
+
+                                                    <input id="r-12" type="radio" value="a" name="radio-group2" checked>
+                                                    <label for="r-12" class="RADIO-label">a</label>
+
+                                                    <input id="r-22" type="radio" value="b" name="radio-group2">
+                                                    <label for="r-22" class="RADIO-label">b</label>
+
+                                                    <input id="r-32" type="radio" value="c" name="radio-group2">
+                                                    <label for="r-32" class="RADIO-label">c</label>
+
+                                                </div>
+                                            </div>
+
+                                            <div class=" COLS CENTER FORM-row">
+
+                                                <div class="COL FORM-row-col CHECK">
+
+                                                    <input id="checkbox-input-1" type="checkbox" value="myValue 1" checked>
+                                                    <label for="checkbox-input-1" class="CHECK-label">rosso</label>
+                                                    <input id="checkbox-input-2" type="checkbox" value="myValue 2">
+                                                    <label for="checkbox-input-2" class="CHECK-label">blue</label>
+
+                                                </div>
+                                            </div>
+                                            
+                                            <div class=" COLS CENTER FORM-row">
+
+                                                <div class="COL FORM-row-col CHECK">
+
+                                                    <input id="checkbox-input-3" type="checkbox" value="myValue 3" checked>
+                                                    <label for="checkbox-input-3" class="CHECK-label">giallo</label>
+                                                    <input id="checkbox-input-4" type="checkbox" value="myValue 4">
+                                                    <label for="checkbox-input-4" class="CHECK-label">rosso</label>
+
+                                                </div>
+                                                
+                                                <div class="COL FORM-row-col INPUT">
+                                                    <div class="INPUT-label">Nome:</div>
+                                                    <div>
+                                                        <input>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                             <div class=" COLS CENTER FORM-row">
+
+
+                                                
+                                                <div class="COL FORM-row-col TEXTAREA">
+                                                    <div class="TEXTAREA-label">Descrizione:</div>
+                                                    <div>
+                                                        <textarea></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+
+
+                                            <!--
+                                                <div class="ROW COLS CENTER FORM-row">
+                                                    <div class="COL FORM-row-col">
+
+                                                        <div>
+                                                            <input id="checkbox-input-1" type="checkbox" value="myValue 1" checked>
+                                                            <label for="checkbox-input-1" class="input-helper input-helper--checkbox">myValue 1</label>
+                                                            <br>
+                                                            <input id="checkbox-input-2" type="checkbox" value="myValue 2">
+                                                            <label for="checkbox-input-2" class="input-helper input-helper--checkbox">myValue 2</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ROW COLS CENTER FORM-row">
+                                                    <div class="COL FORM-row-col">
+                                                        <div class="FORM-row-label">Nome:</div>
+                                                        <div>
+                                                            <input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="COL FORM-row-col">
+                                                        <div class="FORM-row-label">Sesso:</div>
+                                                        <div>
+                                                            <select>
+                                                                <option>Maschio</option>
+                                                                <option>Femmina</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="ROW COLS CENTER FORM-row">
+                                                    <div class="COL FORM-row-col">
+                                                        <div class="FORM-row-label">Sesso:</div>
+                                                        <div>
+                                                            <select>
+                                                                <option>Maschio</option>
+                                                                <option>Femmina</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ROW COLS CENTER FORM-row">
+                                                    <div class="COL FORM-row-col">
+
+                                                        <div>
+                                                            <input id="radio-input-1" type="radio" value="myValue 1" name="radio-group" checked>
+                                                            <label for="radio-input-1" class="input-helper input-helper--radio">myValue 1</label>
+                                                            
+                                                            <input id="radio-input-2" type="radio" value="myValue 2" name="radio-group">
+                                                            <label for="radio-input-2" class="input-helper input-helper--radio">myValue 2</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                -->
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="ROW FORM-footer">
+
+                            <div class="COLS">
+                                <div class="COL">
+                                    <button class="BUTTON red medium rounded">Annulla</button>
+                                </div>
+                                <div class="COL-FLEX"></div>
+                                <div class="COL">
+                                    <button class="BUTTON green medium rounded">Salva</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <div class="EXTENDER APP">
+        <div class="ROWS">
+            <div class="ROW TOOLBAR" style="height:0px;"></div>
+            <div class="ROW-FLEX COLS">
+
+                <div class="COL SIDEBAR">
+                    <div class="SIDEBAR-elements">
+                        <div class="SIDEBAR-element-container">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON home"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Home</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                        <div class="SIDEBAR-element-container">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON th"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Applicazioni</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                        <div class="SIDEBAR-element-container selected">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON user"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Utenti</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                        <div class="SIDEBAR-element-container">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON file"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Contenuti</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                        <div class="SIDEBAR-element-container">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON phone"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Dispositivi</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                        <div class="SIDEBAR-element-container">
+                            <div class="SIDEBAR-element-icon-container">
+                                <span href="" class="FONT-ICON flag"></span>
+                            </div>
+                            <div class="SIDEBAR-element-text">Localizzazione</div>
+                            <div class="SIDEBAR-element-triangle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="COL-FLEX MAIN-AREA ROWS">
+                    <div class="ROW COLS END MAIN-AREA-HEADER">
+                        <div class="COL-FLEX"></div>
+                        <div class="COL MAIN-AREA-HEADER-BUTTONS-CONTAINER">
+                            <div class="EXTENDER">
+                                <div class="PADDER-CENTER">
+                                    <div class="MAIN-AREA-HEADER-BUTTON">Admin</div>
+                                    <div class="MAIN-AREA-HEADER-BUTTON">Assistenza</div>
+                                    <div class="MAIN-AREA-HEADER-BUTTON">Logout</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ROW-FLEX MAIN-AREA-BODY">
+
+
+                        <div class="EXTENDER TABLE">
+                            <div class="PADDER15">
+                                <div class="ROWS">
+                                    <div class="ROW TABLE-tools-container">
+                                        <div class="EXTENDER">
+                                            <div class="COLS">
+                                                <div class="COL">
+                                                    <button class="BUTTON green medium rounded">Nuovo</button>
+                                                </div>
+                                                <div class="COL">
+                                                    <button class="BUTTON yellow medium rounded">Altro</button>
+                                                </div>
+                                                <!--<div class="COL">
+                                                        <select>
+                                                            <option>Azioni</option>
+                                                            <option>Elimina</option>
+                                                            <option>Duplica</option>
+                                                        </select>
+                                                    </div>
+                                                    -->
+                                                <div class="COL-FLEX TABLE-title-container">
+                                                    <div class="EXTENDER">
+                                                        <div class="PADDER-CENTER">
+                                                            <div>
+                                                                <div class="FONT-ICON user" style="float:left"></div>
+                                                                <div class="TABLE-title" style="float:left; margin:-8px 0px 0px 50px">Lista Utenti</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="COL">
+                                                    <input type="search" placeholder="cerca....">
+                                                </div>
+                                                <div class="COL">
+                                                    <button class="BUTTON blue medium rounded">Cerca</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ROW COLS TABLE-header-container">
+
+                                        <table cellspacing="0" class="enhanced">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:200px">Company</th>
+                                                    <th style="width:120px" class="dotted">Dollar</th>
+                                                    <th>Trade Time</th>
+                                                    <th>Trade Time</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+
+                                    </div>
+
+                                    <div class="ROW-FLEX COLS TABLE-results-container">
+                                        <div class="EXTENDER TABLE-results-container-scroller">
+
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th style="width:200px">GOOG
+                                                            <span class="co-name">Google Inc.</span>
+                                                        </th>
+                                                        <td style="width:120px">
+                                                            <div>6</div>
+                                                        </td>
+                                                        <td>12:12PM</td>
+                                                        <td>12:12PM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th style="width:200px">GOOG
+                                                            <span class="co-name">Google Inc.</span>
+                                                        </th>
+                                                        <td style="width:120px">
+                                                            <div>6</div>
+                                                        </td>
+                                                        <td>12:12PM</td>
+                                                        <td>12:12PM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th style="width:200px">GOOG
+                                                            <span class="co-name">Google Inc.</span>
+                                                        </th>
+                                                        <td style="width:120px">
+                                                            <div>6</div>
+                                                        </td>
+                                                        <td>12:12PM</td>
+                                                        <td>12:12PM</td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+
+
+                                        </div>
+                                    </div>
+                                    <div class="ROW TABLE-footer-container"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+

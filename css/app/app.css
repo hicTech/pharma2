@@ -1,0 +1,120 @@
+.APP{
+    background-image:url(img/dark_bg.png);
+}
+
+
+
+.blured{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+
+
+
+
+
+
+
+.EXTENDER::-webkit-scrollbar-button:vertical {
+    cursor:pointer;
+}
+
+/* Turn on single button up on top, and down on bottom */
+.EXTENDER::-webkit-scrollbar-button:start:decrement,
+.EXTENDER::-webkit-scrollbar-button:end:increment {
+    display: block;
+    cursor:pointer;
+}
+
+/* Turn off the down area up on top, and up area on bottom */
+.EXTENDER::-webkit-scrollbar-button:vertical:start:increment,
+.EXTENDER::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+    cursor:pointer;
+}
+
+/* Place The scroll down button at the bottom */
+.EXTENDER::-webkit-scrollbar-button:vertical:increment {
+    background-color: rgba(0,0,0,0);
+    cursor:pointer;
+}
+
+/* Place The scroll up button at the up */
+.EXTENDER::-webkit-scrollbar-button:vertical:decrement {
+    background-color: rgba(0,0,0,0);
+    cursor:pointer;
+}
+
+
+
+
+
+
+.EXTENDER::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    cursor:pointer;
+
+}
+
+
+/* Track */
+.EXTENDER::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0.0);
+    cursor:pointer;
+
+}
+
+/* Handle */
+
+.EXTENDER:hover::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.1);
+    cursor:pointer;
+    
+}
+
+.EXTENDER:hover::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0.05);
+    cursor:pointer;
+
+}
+
+.EXTENDER:hover::-webkit-scrollbar-button:vertical:increment {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAYAAAAPDoR2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD1JREFUeNpiYGBgEALiz0D8Hw0vZfj/H0QzdGGRVIdJouteChYHEVh0a6FLwnQvhYvBGFAF7UCsC+MDBBgA6vE/38HE2cQAAAAASUVORK5CYII=);
+    background-repeat:no-repeat;
+    background-position:center;
+    width:14px;
+    height:14px;
+    background-color: rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+
+/* Place The scroll up button at the up */
+.EXTENDER:hover::-webkit-scrollbar-button:vertical:decrement {
+     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAYAAAAPDoR2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADpJREFUeNpi+P//PwMMA0E7EOvC+UgSQkD8GYiXYpPsAuL/UKwFl0TSBZNciiyJrAuG1bHpgusGCDAA1Y8/36MXSMoAAAAASUVORK5CYII=);
+    background-repeat:no-repeat;
+    background-position:center;
+    width:14px;
+    height:14px;
+    background-color: rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+
+
+
+.EXTENDER::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.0);
+    cursor:pointer;
+}
+
+
+.EXTENDER::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0,0,0,0.2);
+}

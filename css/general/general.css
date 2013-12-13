@@ -1,0 +1,16 @@
+*{
+    font-family:Helvetica;
+    font-size:12px;
+}
+
+.dotted{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+
+

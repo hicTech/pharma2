@@ -1,0 +1,90 @@
+.LOADING{
+    width: 300px;
+    height: 90px;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 5px;
+    box-shadow:1px 1px 2px
+}
+.LOADING-text{
+    width:100%;
+    text-align:center;
+    color:white;
+    padding:12px 0px
+}
+.LOADING-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0 -14px;
+    z-index: 200000
+}
+/* Spin track (outer circle) */
+
+.LOADING-container .track {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 2px;
+    top: 2px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.8);
+}
+/* Spinning circle (inner circle) */
+
+.LOADING-container .maskedCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    border: 3px solid #fff;
+}
+/* Spinning circle mask */
+
+.LOADING-container .loadingMask {
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+}
+/* Spinner */
+
+.LOADING-container .spinner {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 26px;
+    height: 26px;
+    -webkit-animation: spin 0.8s infinite linear;
+    -o-animation: spin 0.8s infinite linear;
+    animation: spin 0.8s infinite linear;
+}
+
+
+
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-o-keyframes spin {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Loading animation container */

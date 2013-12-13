@@ -1,0 +1,63 @@
+.SIDEBAR{
+    color:rgba(255,255,255,0.40);
+    width:100px;
+    font-size: 12px;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    text-align:center;
+    box-shadow:inset -10px 0px 20px rgba(0,0,0,0.5);
+}
+
+.SIDEBAR.collapsed{
+    width:0px;
+}
+
+
+.SIDEBAR-elements{
+     width:100px;
+    overflow:hidden;
+}
+
+.SIDEBAR-elements .SIDEBAR-element-container{
+    border-bottom:solid 1px rgba(0,0,0,0.22);
+    height:70px;
+    box-shadow: inset 0px -30px 50px rgba(0,0,0,0.1);
+    position:relative;
+}
+
+
+.SIDEBAR-element-container{
+    
+}
+
+.SIDEBAR-element-container.selected{
+    color:rgba(255,255,255,1);
+    text-shadow: 1px 1px rgba(0,0,0,0.9);
+    text-shadow:0px 0px 20px rgba(255,255,255,0.2);
+     box-shadow:inset 0px -10px 50px rgba(0,0,0,0.45);
+}
+
+.SIDEBAR-element-container.selected .SIDEBAR-element-triangle{
+    display:block;
+}
+
+.SIDEBAR-element-icon-container{
+    height:40px;
+    padding-top:5px;
+}
+
+
+.SIDEBAR-element-icon-container .FONT-ICON:before{
+    font:22px/1em 'Glyphicons FONT-ICON Regular'
+}
+
+.SIDEBAR-element-triangle{
+    display:none;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 7px 7px 7px 0;
+    border-color: transparent #e2e2e2 transparent transparent;
+    position:absolute;
+    right:0px;
+    top:40%;
+}

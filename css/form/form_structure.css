@@ -1,0 +1,42 @@
+.FORM-bg {
+    color: #666;
+}
+
+.FORM-header {
+    height: 90px;
+    background-image: url(img/form_header.png);
+    background-position:center bottom;
+    background-repeat:repeat-x;
+    text-shadow: 1px 1px rgba(255,255,255,0.7);
+    color: #666;
+    background-color: rgba(0,0,0,0.05);
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.1);
+    
+}
+.FORM-title {}
+
+.FORM-subtitle {
+    font-size: 12px;
+}
+
+
+
+.FORM-footer {
+    height: 41px;
+    background-color:#555;
+}
+
+
+.FORM-rows .FORM-row{
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.15);
+    box-shadow: -2px -6px 9px 0px rgba(0, 0, 0, 0.03);
+}
+
+.FORM-rows .FORM-row:last-child{
+    border-bottom: none;
+}
+
+.FORM-row-col{
+    margin:10px 20px 20px 20px;
+    min-width:280px;
+}
